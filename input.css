@@ -78,3 +78,7 @@
 .navbar li a:hover::before {
     width: 96%;
 }
+
+.mainCola {
+    border-radius: 0 0 120px 0;
+}

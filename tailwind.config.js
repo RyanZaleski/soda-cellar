@@ -19,7 +19,7 @@ module.exports = {
         black: '#333333',
         blue: '#2B31B2',
         darkBlue: '#131A8D',
-        red: '#FF0000',
+        red: '#810000',
         fadedBlue: '#CEE5FF',
       }
     },
