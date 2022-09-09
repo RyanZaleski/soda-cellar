@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
@@ -79,6 +81,3 @@
     width: 96%;
 }
 
-.mainCola {
-    border-radius: 0 0 120px 0;
-}
