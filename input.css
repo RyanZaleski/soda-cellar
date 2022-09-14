@@ -108,10 +108,11 @@
 
 
 @media screen and (max-width: 767px){
-    .wrapper {
+    .html {
         height: 100vh;
         scroll-snap-type: y mandatory;
         overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
     }
 
     .item{
