@@ -108,7 +108,7 @@
 
 
 @media screen and (max-width: 767px){
-    .html {
+    .html, body{
         height: 100vh;
         scroll-snap-type: y mandatory;
         overflow-y: scroll;
