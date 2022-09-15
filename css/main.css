@@ -809,6 +809,18 @@ video {
   margin-bottom: calc(6rem * var(--tw-space-y-reverse));
 }
 
+.space-y-14 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+}
+
 .self-start {
   align-self: flex-start;
 }
@@ -948,6 +960,18 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1069,10 +1093,6 @@ video {
   text-underline-offset: 4px;
 }
 
-.underline-offset-0 {
-  text-underline-offset: 0px;
-}
-
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
@@ -1177,23 +1197,6 @@ video {
   border-radius: 0 0 60px 70px;
 }
 
-.dash {
-  display: inline-block;
-  position: relative;
-}
-
-.dash:before {
-  content: "";
-  position: absolute;
-  left: 2px;
-  bottom: 0;
-  width: 50px;
-  margin: 0 auto;
-  height: 3px;
-  background-color: #333333;
-  border-radius: 50px;
-}
-
 @media (min-width: 767px){
   #myBtn {
     background-color: #FAFAFA;
@@ -1229,6 +1232,23 @@ video {
     /* Rounded corners */
     font-size: 14px;
     /* Increase font size */
+  }
+
+  .dash {
+    display: inline-block;
+    position: relative;
+  }
+
+  .dash:before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    bottom: 0;
+    width: 50px;
+    margin: 0 auto;
+    height: 3px;
+    background-color: #333333;
+    border-radius: 50px;
   }
 
   .from-left{
