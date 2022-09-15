@@ -1133,7 +1133,6 @@ video {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
-    scroll-snap-points-y: repeat(100vh);
   }
 
   .item{
