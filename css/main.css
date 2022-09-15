@@ -665,6 +665,14 @@ video {
   width: 100%;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
 @-webkit-keyframes bounce {
   0%, 100% {
     transform: translateY(-25%);
@@ -878,8 +886,8 @@ video {
   padding-top: 0.5rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .pb-8 {
@@ -890,12 +898,12 @@ video {
   padding-bottom: 1rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .pb-2 {
@@ -904,6 +912,10 @@ video {
 
 .pt-20 {
   padding-top: 5rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .text-center {
@@ -1138,6 +1150,19 @@ video {
   .item{
     scroll-snap-align: center;
   }
+
+  .mobileNav {
+    /* make it stick */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 20;
+    /* in front of all other elements */
+    z-index: 99;
+    /* set background */
+    background-color: #FAFAFA;
+    padding: 10px 5%;
+  }
 }
 
 .hover\:bg-white:hover {
@@ -1271,6 +1296,11 @@ video {
 
   .md\:p-4 {
     padding: 1rem;
+  }
+
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .md\:px-4 {

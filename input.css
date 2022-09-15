@@ -120,4 +120,18 @@
     .item{
         scroll-snap-align: center;
     }
+
+.mobileNav {
+   
+        /* make it stick */
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        left: 20;
+        /* in front of all other elements */
+        z-index: 99;
+        /* set background */
+        background-color: #FAFAFA;
+        padding: 10px 5%;
+}
 }
