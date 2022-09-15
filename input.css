@@ -106,6 +106,12 @@
     border-radius: 50px;
 }
 
+@media (min-width: 767px){
+    #myBtn {
+        background-color: #FAFAFA;
+        color: #FAFAFA;
+    }
+}
 
 @media screen and (max-width: 767px){
     
@@ -122,7 +128,8 @@
         cursor: pointer; /* Add a mouse pointer on hover */
         padding: 12px 14px; /* Some padding */
         border-radius: 100%; /* Rounded corners */
-        font-size: 12px; /* Increase font size */
+        font-size: 14px; /* Increase font size */
+        
       }
       
      
@@ -140,7 +147,7 @@
       
       .from-left,
       .from-right {
-        transition: opacity 800ms ease-in,
+        transition: opacity 1000ms ease-in,
                     transform 800ms ease-in;
         opacity: 0;
         z-index: 0;
