@@ -161,3 +161,9 @@
       }
 
 }
+
+.customSize {
+    font-size: 140px;
+    z-index: -1;
+    font-family: 'Nunito Sans', sans-serif;
+}
