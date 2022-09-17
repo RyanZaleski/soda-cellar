@@ -68,17 +68,17 @@
 .navbar li a::before {
     content: "";
     position: absolute;
-    left: 2%;
+    left: 0;
     bottom: 0;
     width: 0;
     margin: 0 auto;
     height: 2px;
-    background-color: #333333;
+    background-color: #aeaeae;
     transition: width 0.25s ease-out;
 }
 
 .navbar li a:hover::before {
-    width: 96%;
+    width: 100%;
 }
 
 

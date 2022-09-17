@@ -22,18 +22,18 @@
 </head>
 <body class="bg-eggWhite tracking-wide text-black font-sans lg:container md:mx-auto md:space-y-12 lg:space-y-20">
 
-    <header class="px-8">
+    <header>
 
         <!-- Navbar -->
 
-        <nav class="relative mx-auto pt-2">
+        <nav class="mx-6 relative md:mx-auto pt-2">
 
             <!-- Flex container -->
 
             <div class="sm:justify-between flex items-center justify-between md:py-4 md:justify-around">
 
                 <!-- Logo -->
-                <a href="./index.html" class="w-28 drop-shadow-none md:w-36 md:drop-shadow-2xl shadow-blue-500/50 md:pt-2">
+                <a href="./index.html" class="w-28 drop-shadow-none md:w-28 md:drop-shadow-2xl shadow-blue-500/50 md:pt-2">
 
                     <img src="./images/soda-cellar-logo.png" alt="Soda Cellar logo">
             
@@ -41,7 +41,7 @@
 
             <!-- Menu items -->
 
-                <ul class="text-base font-normal navbar hidden md:flex space-x-8 lg:space-x-10">
+                <ul class="text-base font-normal navbar hidden md:flex space-x-8 xl:space-x-10">
 
                     <li><a class="tracking-wide font-black" href="./index.html">Home</a></li>
                     <li><a class="tracking-wide" href="./about.html">About</a></li>
@@ -91,7 +91,7 @@
     
     <!-- Main -->
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angles-up"></i></button>
+    
     
     <main class="px-0 z-0 mx-auto w-full md:flex flex-col md:bg-white lg:flex-row rounded-2xl md:container md:mx-auto justify-between md:px-4 xl:flex-row rounded-2xl container mx-auto justify-evenly lg:w-full lg:pb-10 xl:w-10/12 xl:px-4">
 
@@ -103,7 +103,9 @@
     <!-- Mobile Welcome to Soda Cellar-->
     <section class="flex md:hidden space-y-2 md:space-y-4 flex flex-col">
 
-         <div class="h-screen pt-10 space-y-0 flex flex-col fade-in from-right">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angles-up"></i></button>
+
+         <div class="pt-10 space-y-0 flex flex-col">
 
             <h1 class="text-3xl text-center pt-2 font-serif font-black leading-10">Welcome to <a class="font-black text-red"><br>Soda Cellar LTD</a></h1>
 
@@ -115,7 +117,7 @@
         </div>
 
         <!-- Mobile we supply section -->
-        <div class="h-screen px-12 flex flex-col fade-in from-left">
+        <div class="px-12 flex flex-col">
 
             <h2 class="text-2xl font-medium mx-auto dash pb-4">We supply <span class="font-black">everything</span> you need for your post mix requirements.</h2>
 
@@ -126,7 +128,7 @@
         </div>
 
         <!-- Mobile Post Mix Syrups -->
-        <div class="h-screen px-8 flex flex-col space-y-2 w-full mx-auto fade-in from-right">
+        <div class="px-8 flex flex-col space-y-2 w-full mx-auto">
 
             <img class="h-20 mx-auto" src="./images/drink-soda-pngrepo-com.png" alt="post mix syrup icon">
 
@@ -139,7 +141,7 @@
         </div>
 
         <!-- Mobile Dispensing Systems -->
-        <div class="h-screen px-8 flex flex-col space-y-2 w-full mx-auto fade-in from-left">
+        <div class="px-8 flex flex-col space-y-2 w-full mx-auto">
 
             <img class="h-20 mx-auto" src="./images/cash-machine-pngrepo-com.png" alt="dispensing system icon">
 
@@ -152,7 +154,7 @@
         </div>
 
         <!-- Mobile Based In Essex -->
-        <div class="h-screen px-8 flex flex-col space-y-2 w-full mx-auto fade-in from-right">
+        <div class="px-8 flex flex-col space-y-2 w-full mx-auto">
 
             <img class="h-20 mx-auto" src="./images/location-search-pngrepo-com.png" alt="based in essex icon">
 
