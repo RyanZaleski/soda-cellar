@@ -31,6 +31,93 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+// Menu on products page
+
+const branded = document.querySelector('#brandedSection')
+const sparkling = document.querySelector('#sparklingSection')
+const juices = document.querySelector('#juicesSection')
+const cordials = document.querySelector('#cordialsSection')
+const mixers = document.querySelector('#mixersSection')
+
+
+
+document.querySelector('#branded').addEventListener('click', showBranded) 
+document.querySelector('#sparkling').addEventListener('click', showSparkling)
+document.querySelector('#juices').addEventListener('click', showJuices)
+document.querySelector('#cordials').addEventListener('click', showCordials)
+document.querySelector('#mixers').addEventListener('click', showMixers)
+
+function showBranded(){
+	branded.classList.toggle('hide')
+	sparkling.classList.add('hide')
+	juices.classList.add('hide')
+	cordials.classList.add('hide')
+	mixers.classList.add('hide')
+
+    document.querySelector('#branded').classList.add('font-bold')
+	document.querySelector('#sparkling').classList.remove('font-bold')
+	document.querySelector('#juices').classList.remove('font-bold')
+	document.querySelector('#cordials').classList.remove('font-bold')
+	document.querySelector('#mixers').classList.remove('font-bold')
+}
+
+function showSparkling(){
+	sparkling.classList.toggle('hide')
+	branded.classList.add('hide')
+	juices.classList.add('hide')
+	cordials.classList.add('hide')
+	mixers.classList.add('hide')
+
+    document.querySelector('#sparkling').classList.add('font-bold')
+	document.querySelector('#branded').classList.remove('font-bold')
+	document.querySelector('#juices').classList.remove('font-bold')
+	document.querySelector('#cordials').classList.remove('font-bold')
+	document.querySelector('#mixers').classList.remove('font-bold')
+}
+
+function showJuices(){
+	juices.classList.toggle('hide')
+	sparkling.classList.add('hide')
+	branded.classList.add('hide')
+	cordials.classList.add('hide')
+	mixers.classList.add('hide')
+
+    document.querySelector('#juices').classList.add('font-bold')
+	document.querySelector('#sparkling').classList.remove('font-bold')
+	document.querySelector('#branded').classList.remove('font-bold')
+	document.querySelector('#cordials').classList.remove('font-bold')
+	document.querySelector('#mixers').classList.remove('font-bold')
+}
+
+function showCordials(){
+	cordials.classList.toggle('hide')
+	sparkling.classList.add('hide')
+	juices.classList.add('hide')
+	branded.classList.add('hide')
+	mixers.classList.add('hide')
+
+    document.querySelector('#cordials').classList.add('font-bold')
+	document.querySelector('#sparkling').classList.remove('font-bold')
+	document.querySelector('#juices').classList.remove('font-bold')
+	document.querySelector('#branded').classList.remove('font-bold')
+	document.querySelector('#mixers').classList.remove('font-bold')
+}
+
+function showMixers(){
+	mixers.classList.toggle('hide')
+	sparkling.classList.add('hide')
+	juices.classList.add('hide')
+	cordials.classList.add('hide')
+	branded.classList.add('hide')
+
+    document.querySelector('#mixers').classList.add('font-bold')
+	document.querySelector('#sparkling').classList.remove('font-bold')
+	document.querySelector('#juices').classList.remove('font-bold')
+	document.querySelector('#cordials').classList.remove('font-bold')
+	document.querySelector('#branded').classList.remove('font-bold')
+}
+
+
 
 
 

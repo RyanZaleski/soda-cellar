@@ -88,6 +88,10 @@
     border-radius: 0 0 60px 70px;
 }
 
+.hide {
+    display: none;
+}
+
 
 
 @media (min-width: 767px){

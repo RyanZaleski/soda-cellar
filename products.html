@@ -20,13 +20,13 @@
     <!-- Title Image -->
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
-<body class="tracking-wide space-y-10 bg-eggWhite text-black font-sans md:mx-auto md:container">
+<body class="mx-6 tracking-wide space-y-10 bg-eggWhite text-black font-sans md:mx-auto md:container">
 
     <header>
 
         <!-- Navbar -->
 
-        <nav class="px-6 relative mx-auto pt-2">
+        <nav class="relative mx-auto pt-2">
 
             <!-- Flex container -->
 
@@ -44,8 +44,8 @@
                 <ul class="text-base font-normal navbar hidden md:flex space-x-8 xl:space-x-10">
 
                     <li><a class="tracking-wide" href="./index.html">Home</a></li>
-                    <li><a class="tracking-wide font-black" href="./about.html">About</a></li>
-                    <li><a class="tracking-wide" href="./products.html">Products</a></li>
+                    <li><a class="tracking-wide" href="./about.html">About</a></li>
+                    <li><a class="tracking-wide font-black" href="./products.html">Products</a></li>
                     <li><a class="tracking-wide" href="./equipment.html">Equipment</a></li>
 
                 </ul>
@@ -90,7 +90,7 @@
     </header>
 
     <!-- Top section -->
-    <section class="px-6 space-y-4 md:space-y-10">
+    <section class="space-y-4 md:space-y-10">
 
         <!-- Products title -->
         <h1 class="text-2xl font-bold font-serif text-left dash pb-4 md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Soda Cellar offer a broad range of high quality post mix products.</h1>
@@ -144,17 +144,17 @@
 
         <!-- Nav -->
 
-        <section>
+        <section class="pt-32">
 
             <nav>
 
                 <ul class="flex flex-col text-left items-center space-y-1 bg-backgroundGrey p-6">
 
-                    <li><a class="font-bold">BRANDED SOFT DRINKS</a></li>
-                    <li><a>SPARKLING SOFT DRINKS</a></li>
-                    <li><a>JUICES</a></li>
-                    <li><a>CORDIALS</a></li>
-                    <li><a>MIXERS</a></li>
+                    <a id="branded" class="font-bold">BRANDED SOFT DRINKS</a>
+                    <a id="sparkling">SPARKLING SOFT DRINKS</a>
+                    <a id="juices">JUICES</a>
+                    <a id="cordials">CORDIALS</a>
+                    <a id="mixers">MIXERS</a>
 
                 </ul>
 
@@ -163,7 +163,7 @@
         </section>
 
     <!-- Branded Soft Drinks -->
-    <section class="space-y-2">
+    <section class="space-y-2 blok" id="brandedSection">
 
         <h1 class="text-xl pt-4 font-bold font-serif text-center md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Branded Soft Drinks</h1>
         <h2 class="text-lg font-normal pb-4 text-center md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Soda Cellar have a delicious range of official post mix soft drinks, including many no-sugar and low-sugar options.</h2>
@@ -239,8 +239,10 @@
 
         </section>
 
+        </section>
+
     <!-- Sparkling Soft Drinks -->
-    <section class="space-y-2">
+    <section class="space-y-2 hide" id="sparklingSection">
 
         <h1 class="text-xl pt-4 font-bold font-serif text-center md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Sparkling Soft Drinks</h1>
         <h2 class="text-lg font-normal pb-4 text-center md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Soda Cellar have a great range of premium sodas that have been delighting customers for years.</h2>
@@ -327,8 +329,10 @@
 
         </section>
 
+    </section>
+
         <!-- Juices -->
-    <section class="space-y-2">
+    <section class="space-y-2 hide" id="juicesSection">
 
         <h1 class="text-xl pt-4 font-bold font-serif text-center md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Juices</h1>
         <h2 class="text-lg font-normal pb-4 text-center md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Soda Cellar are able to provide classic fruit flavours. Perfect for kids that are looking for a low sugar drink with a premium taste.</h2>
@@ -404,8 +408,10 @@
 
         </section>
 
+    </section>
+
           <!-- Cordials -->
-    <section class="space-y-2">
+    <section class="space-y-2 hide" id="cordialsSection">
 
         <h1 class="text-xl pt-4 font-bold font-serif text-center md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Cordials</h1>
         <h2 class="text-lg font-normal pb-4 text-center md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Soda Cellar can provide you with refreshing fruit flavoured cordials.</h2>
@@ -445,8 +451,10 @@
 
         </section>
 
+    </section>
+
          <!-- Mixers -->
-    <section class="space-y-2">
+        <section class="space-y-2 hide" id="mixersSection">
 
         <h1 class="text-xl pt-4 font-bold font-serif text-center md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Mixers</h1>
         <h2 class="text-lg font-normal pb-4 text-center md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Soda Cellar can provide the best mixers to make that perfect drink.</h2>
@@ -458,7 +466,7 @@
 
                     <img class="w-36 rounded-lg mx-auto" src="./images/energy.jpg" alt="Energy Mixer">
 
-                    <span class="font-black mb-1">Energy</span>
+                    <span class="font-black mb-1">Stimulating Energy</span>
                     <span class="font-medium">Litres = 60</span>
                     <span class="font-medium">Ratio = 5:1</span>
                     <span class="font-medium">Servings = 211</span>
@@ -469,7 +477,7 @@
 
                     <img class="w-36 rounded-lg mx-auto" src="./images/blue.jpg" alt="Blue Mixer">
 
-                    <span class="font-black mb-1">Blue</span>
+                    <span class="font-black mb-1">Invigorating Blue</span>
                     <span class="font-medium">Litres = 60</span>
                     <span class="font-medium">Ratio = 6:1</span>
                     <span class="font-medium">Servings = 211</span>
@@ -489,13 +497,36 @@
 
         </section>
 
-        
-
-       
+    </section>
 
     </section>
+
+    <!-- Footer -->
     
-    <script src="./javascript/script.js"> </script>
+
+    <footer class="mt-20 py-2 text-xs text-center space-y-2 flex flex-col md:flex-row md:space-y-0 justify-evenly">
+
+        <!-- Soda Sellar registered no -->
+
+        <span>
+
+            Soda Cellar LTD. Registered no. 10620318
+            
+        </span>
+        
+
+        <!-- Copyright and developed by Ryan Zaleski -->
+
+        <span>
+
+            Copyright &copy; <script>document.write(new Date().getFullYear())</script>, Designed & Developed by <a href="https://www.ryanzaleski.com" class="font-bold">Ryan Zaleski</a>
+
+        </span>
+
+
+    </footer>
+    
+    <script src="./javascript/script.js"></script>
 
 </body>
 </html>
