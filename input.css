@@ -72,7 +72,7 @@
     bottom: 0;
     width: 0;
     margin: 0 auto;
-    height: 2px;
+    height: 1px;
     background-color: #aeaeae;
     transition: width 0.25s ease-out;
 }

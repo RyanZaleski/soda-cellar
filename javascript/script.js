@@ -54,11 +54,11 @@ function showBranded(){
 	cordials.classList.add('hide')
 	mixers.classList.add('hide')
 
-    document.querySelector('#branded').classList.add('font-bold')
-	document.querySelector('#sparkling').classList.remove('font-bold')
-	document.querySelector('#juices').classList.remove('font-bold')
-	document.querySelector('#cordials').classList.remove('font-bold')
-	document.querySelector('#mixers').classList.remove('font-bold')
+    document.querySelector('#branded').classList.add('font-extrabold')
+	document.querySelector('#sparkling').classList.remove('font-extrabold')
+	document.querySelector('#juices').classList.remove('font-extrabold')
+	document.querySelector('#cordials').classList.remove('font-extrabold')
+	document.querySelector('#mixers').classList.remove('font-extrabold')
 }
 
 function showSparkling(){
@@ -68,11 +68,11 @@ function showSparkling(){
 	cordials.classList.add('hide')
 	mixers.classList.add('hide')
 
-    document.querySelector('#sparkling').classList.add('font-bold')
-	document.querySelector('#branded').classList.remove('font-bold')
-	document.querySelector('#juices').classList.remove('font-bold')
-	document.querySelector('#cordials').classList.remove('font-bold')
-	document.querySelector('#mixers').classList.remove('font-bold')
+    document.querySelector('#sparkling').classList.add('font-extrabold')
+	document.querySelector('#branded').classList.remove('font-extrabold')
+	document.querySelector('#juices').classList.remove('font-extrabold')
+	document.querySelector('#cordials').classList.remove('font-extrabold')
+	document.querySelector('#mixers').classList.remove('font-extrabold')
 }
 
 function showJuices(){
@@ -82,11 +82,11 @@ function showJuices(){
 	cordials.classList.add('hide')
 	mixers.classList.add('hide')
 
-    document.querySelector('#juices').classList.add('font-bold')
-	document.querySelector('#sparkling').classList.remove('font-bold')
-	document.querySelector('#branded').classList.remove('font-bold')
-	document.querySelector('#cordials').classList.remove('font-bold')
-	document.querySelector('#mixers').classList.remove('font-bold')
+    document.querySelector('#juices').classList.add('font-extrabold')
+	document.querySelector('#sparkling').classList.remove('font-extrabold')
+	document.querySelector('#branded').classList.remove('font-extrabold')
+	document.querySelector('#cordials').classList.remove('font-extrabold')
+	document.querySelector('#mixers').classList.remove('font-extrabold')
 }
 
 function showCordials(){
@@ -96,11 +96,11 @@ function showCordials(){
 	branded.classList.add('hide')
 	mixers.classList.add('hide')
 
-    document.querySelector('#cordials').classList.add('font-bold')
-	document.querySelector('#sparkling').classList.remove('font-bold')
-	document.querySelector('#juices').classList.remove('font-bold')
-	document.querySelector('#branded').classList.remove('font-bold')
-	document.querySelector('#mixers').classList.remove('font-bold')
+    document.querySelector('#cordials').classList.add('font-extrabold')
+	document.querySelector('#sparkling').classList.remove('font-extrabold')
+	document.querySelector('#juices').classList.remove('font-extrabold')
+	document.querySelector('#branded').classList.remove('font-extrabold')
+	document.querySelector('#mixers').classList.remove('font-extrabold')
 }
 
 function showMixers(){
@@ -110,11 +110,11 @@ function showMixers(){
 	cordials.classList.add('hide')
 	branded.classList.add('hide')
 
-    document.querySelector('#mixers').classList.add('font-bold')
-	document.querySelector('#sparkling').classList.remove('font-bold')
-	document.querySelector('#juices').classList.remove('font-bold')
-	document.querySelector('#cordials').classList.remove('font-bold')
-	document.querySelector('#branded').classList.remove('font-bold')
+    document.querySelector('#mixers').classList.add('font-extrabold')
+	document.querySelector('#sparkling').classList.remove('font-extrabold')
+	document.querySelector('#juices').classList.remove('font-extrabold')
+	document.querySelector('#cordials').classList.remove('font-extrabold')
+	document.querySelector('#branded').classList.remove('font-extrabold')
 }
 
 
