@@ -54,11 +54,11 @@ function showBranded(){
 	cordials.classList.add('hide')
 	mixers.classList.add('hide')
 
-    document.querySelector('#branded').classList.add('font-extrabold')
-	document.querySelector('#sparkling').classList.remove('font-extrabold')
-	document.querySelector('#juices').classList.remove('font-extrabold')
-	document.querySelector('#cordials').classList.remove('font-extrabold')
-	document.querySelector('#mixers').classList.remove('font-extrabold')
+    document.querySelector('#branded').classList.add('font-medium')
+	document.querySelector('#sparkling').classList.remove('font-medium')
+	document.querySelector('#juices').classList.remove('font-medium')
+	document.querySelector('#cordials').classList.remove('font-medium')
+	document.querySelector('#mixers').classList.remove('font-medium')
 }
 
 function showSparkling(){
@@ -68,11 +68,11 @@ function showSparkling(){
 	cordials.classList.add('hide')
 	mixers.classList.add('hide')
 
-    document.querySelector('#sparkling').classList.add('font-extrabold')
-	document.querySelector('#branded').classList.remove('font-extrabold')
-	document.querySelector('#juices').classList.remove('font-extrabold')
-	document.querySelector('#cordials').classList.remove('font-extrabold')
-	document.querySelector('#mixers').classList.remove('font-extrabold')
+    document.querySelector('#sparkling').classList.add('font-medium')
+	document.querySelector('#branded').classList.remove('font-medium')
+	document.querySelector('#juices').classList.remove('font-medium')
+	document.querySelector('#cordials').classList.remove('font-medium')
+	document.querySelector('#mixers').classList.remove('font-medium')
 }
 
 function showJuices(){
@@ -82,11 +82,11 @@ function showJuices(){
 	cordials.classList.add('hide')
 	mixers.classList.add('hide')
 
-    document.querySelector('#juices').classList.add('font-extrabold')
-	document.querySelector('#sparkling').classList.remove('font-extrabold')
-	document.querySelector('#branded').classList.remove('font-extrabold')
-	document.querySelector('#cordials').classList.remove('font-extrabold')
-	document.querySelector('#mixers').classList.remove('font-extrabold')
+    document.querySelector('#juices').classList.add('font-medium')
+	document.querySelector('#sparkling').classList.remove('font-medium')
+	document.querySelector('#branded').classList.remove('font-medium')
+	document.querySelector('#cordials').classList.remove('font-medium')
+	document.querySelector('#mixers').classList.remove('font-medium')
 }
 
 function showCordials(){
@@ -96,11 +96,11 @@ function showCordials(){
 	branded.classList.add('hide')
 	mixers.classList.add('hide')
 
-    document.querySelector('#cordials').classList.add('font-extrabold')
-	document.querySelector('#sparkling').classList.remove('font-extrabold')
-	document.querySelector('#juices').classList.remove('font-extrabold')
-	document.querySelector('#branded').classList.remove('font-extrabold')
-	document.querySelector('#mixers').classList.remove('font-extrabold')
+    document.querySelector('#cordials').classList.add('font-medium')
+	document.querySelector('#sparkling').classList.remove('font-medium')
+	document.querySelector('#juices').classList.remove('font-medium')
+	document.querySelector('#branded').classList.remove('font-medium')
+	document.querySelector('#mixers').classList.remove('font-medium')
 }
 
 function showMixers(){
@@ -111,10 +111,10 @@ function showMixers(){
 	branded.classList.add('hide')
 
     document.querySelector('#mixers').classList.add('font-extrabold')
-	document.querySelector('#sparkling').classList.remove('font-extrabold')
-	document.querySelector('#juices').classList.remove('font-extrabold')
-	document.querySelector('#cordials').classList.remove('font-extrabold')
-	document.querySelector('#branded').classList.remove('font-extrabold')
+	document.querySelector('#sparkling').classList.remove('font-medium')
+	document.querySelector('#juices').classList.remove('font-medium')
+	document.querySelector('#cordials').classList.remove('font-medium')
+	document.querySelector('#branded').classList.remove('font-medium')
 }
 
 
