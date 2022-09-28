@@ -83,8 +83,8 @@
 
 
 .imageMobile {
-    filter: drop-shadow(0px -20px 40px #fddada) drop-shadow(0px 30px 30px #aaaaaa);
-    -webkit-filter: drop-shadow(0px -20px 40px #ffe4e1) drop-shadow(0px 30px 30px #aaaaaa);
+    filter: drop-shadow(0px -20px 40px #fddadac1) drop-shadow(0px 30px 30px #aaaaaabe);
+    -webkit-filter: drop-shadow(0px -20px 40px #ffe4e1c5) drop-shadow(0px 30px 30px #aaaaaabd);
     border-radius: 0 0 105px 110px;
 }
 
