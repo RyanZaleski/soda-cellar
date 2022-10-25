@@ -109,13 +109,17 @@ function showMixers(){
 	juices.classList.add('hide')
 	cordials.classList.add('hide')
 	branded.classList.add('hide')
-
-    document.querySelector('#mixers').classList.add('font-extrabold')
+	document.querySelector('#mixers').classList.add('font-extrabold')
 	document.querySelector('#sparkling').classList.remove('font-medium')
 	document.querySelector('#juices').classList.remove('font-medium')
 	document.querySelector('#cordials').classList.remove('font-medium')
 	document.querySelector('#branded').classList.remove('font-medium')
 }
+
+
+
+
+
 
 
 

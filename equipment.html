@@ -122,30 +122,30 @@
 <section class="flex flex-col lg:flex-row">
 
         <!-- Dispensers menu -->
-        <div class="w-full lg:w-8/12 mr-6 xl:w-4/12">
+        <div class="w-full lg:w-8/12 mr-6 xl:w-6/12">
 
             <ul class="space-y-4 mb-8">
 
                 
-                <li class="bg-zinc-400 font-semibold text-white p-4 xl:p-6"><a>Wunder-bar Revolver</a></li>
-                <li class="bg-white text-black p-4 xl:p-6"><a>Wunder-bar Mustang Tower</a></li>
-                <li class="bg-white text-black p-4 xl:p-6"><a>Top Gun Tower</a></li>
-                <li class="bg-white text-black p-4 xl:p-6"><a>Wunder-bar Gun Dispenser</a></li>
+                <li class="bg-white text-black bg-zinc-400 text-white p-4 xl:p-6 hover:bg-zinc-400 hover:text-white" id="revolver"><a>Wunder-bar Revolver</a></li>
+                <li class="bg-white text-black p-4 xl:p-6 hover:bg-zinc-400 hover:text-white" id="mustang"><a>Wunder-bar Mustang Tower</a></li>
+                <li class="bg-white text-black p-4 xl:p-6 hover:bg-zinc-400 hover:text-white" id="tower"><a>Top Gun Tower</a></li>
+                <li class="bg-white text-black p-4 xl:p-6 hover:bg-zinc-400 hover:text-white" id="gun"><a>Wunder-bar Gun Dispenser</a></li>
 
             </ul>
 
         </div>
 
         <!-- Wunder-bar Revolver Video + Descriptions -->
-        <div class="flex flex-col lg:flex-col-reverse lg:bg-white">
+        <div class="flex flex-col lg:flex-col-reverse lg:bg-white" id="revolverSection">
 
     
             <!-- Image and Description -->
-            <div class="bg-white space-y-4 p-8 md:flex lg:mx-auto">
+            <div class="bg-white space-y-4 p-8 md:flex lg:mx-auto lg:pt-10">
 
-                <img class="w-48 xl:w-72 mx-auto" src="./images/Revolver-Tower.png" alt="Revolver Tower">
+                <img class="w-48 xl:w-72 mx-auto rounded-2xl" src="./images/Revolver-Tower.png" alt="Revolver Tower">
 
-                <p class="xl:w-8/12 xl:pt-16 xl:pr-20">The <a class="font-bold">Wunder-bar Revolver Tower</a> is a new sleek and stylish holster display which can be made bespoke for your business with its digital display screen.</p>
+                <p class="md:pl-8 md:pt-6 xl:w-8/12 xl:pt-16 xl:pr-20">The <a class="font-bold">Wunder-bar Revolver Tower</a> is a new sleek and stylish holster display which can be made bespoke for your business with its digital display screen.</p>
             </div>
 
              <!-- Video -->
@@ -169,37 +169,67 @@
 
         </div>
 
-        <!-- Revolver Video + Descriptions -->
-        <div>
-
-            <!-- Video -->
-            <div></div>
-
-            <!-- Image and Description --> 
-            <div></div>
-            
-        </div>
-
         <!-- Mustang Video + Descriptions -->
-        <div>
+        
+        <div class="hidden flex flex-col lg:flex-col-reverse lg:bg-white" id="mustangSection">
 
-            <!-- Video -->
-            <div></div>
+    
+            <!-- Image and Description -->
+            <div class="bg-white space-y-4 p-8 md:flex lg:mx-auto lg:pt-10">
+
+                <img class="w-48 xl:w-60 mx-auto rounded-2xl" src="./images/mustang.png" alt="Mustang Tower">
+
+                <p class="md:pl-8 md:pt-12 xl:w-8/12 xl:pt-24 xl:pr-20">The <a class="font-bold">Wunder-bar Mustang Tower</a> has a sleek, compact design with all the same capabilities of a large beverage system. It has an advanced interface and can be enabled for both crew service and self-service. This system has the ability to dispense up to 8 flavours.</p>
+            </div>
+
+             <!-- Video -->
+            <div class="lg:hidden">
+
+                <iframe class="mx-auto pt-4" width="95%" height="360" src="https://www.youtube.com/embed/Hjpp9xNtP7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+               
+                
+            </div>
+
+            <div class="hidden lg:block bg-white xl:hidden">
+
+                <iframe class="mx-auto" width="100%" height="400" src="https://www.youtube.com/embed/Hjpp9xNtP7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+
+            <div class="hidden xl:block bg-white">
+
+                <iframe class="mx-auto" width="100%" height="600" src="https://www.youtube.com/embed/Hjpp9xNtP7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+
+        </div>
+        
+        <!-- Wunder-bar gun dispenser Tower Video + Descriptions -->
+        <div class="hidden flex flex-col lg:flex-col-reverse lg:bg-white" id="towerSection">
 
             <!-- Image and Description -->
-            <div></div>
-            
+            <div class="bg-white space-y-4 p-8 md:flex lg:mx-auto lg:pt-10">
+
+                <img class="w-48 xl:w-60 mx-auto rounded-2xl" src="./images/topgun.png" alt="Top Gun Tower">
+
+                <p class="md:pl-8 md:pt-20 xl:w-8/12 xl:pt-28 xl:pr-10">The <a class="font-bold">Top Gun Tower</a> is as efficient and versatile as the Bargun dispenser, it also offers the same great drink quality while providing a large space for eye-catching branding on its panels.</p>
+            </div>
+
         </div>
 
-        <!-- Top Gun Video + Descriptions -->
-        <div>
+        <!-- Top Gun Gun Video + Descriptions -->
+        <div class="hidden flex flex-col lg:bg-white" id="gunSection">
 
-            <!-- Video -->
-            <div></div>
-
+    
             <!-- Image and Description -->
-            <div></div>
-            
+            <div class="bg-white space-y-4 p-8 md:flex lg:mx-auto lg:pb-0 lg:p-4">
+
+                <img class="w-48 xl:w-60 mx-auto rounded-2xl lg:pt-12" src="./images/gun.png" alt="Wunder-bar Gun Dispenser">
+
+                <p class="md:pl-8 md:pt-8 lg:w-8/12 lg:pt-20 lg:pr-10">The <a class="font-bold">Wunder-bar Gun Dispenser</a> is a popular beverage dispenser due to its compact and multifunctional design. This dispensing gun is known to improve efficiency and sell more drinks. A single gun can serve up to 14 different products.</p>
+            </div>
+
         </div>
 
     </section>
@@ -209,7 +239,7 @@
     <section class="space-y-10 xl:space-y-8 pt-14 pb-4">
 
         <!-- Why use drinks title -->
-        <h1 class="text-center text-2xl font-medium font-serif text-left pb-4 lg:pb-0 md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Why use drinks dispensers?</h1>
+        <h1 class="text-center text-2xl font-medium font-serif text-left pb-4 lg:pb-0 md:text-center md:mx-10 md:mx-auto md:text-2xl lg:text-4xl lg:pt-12 lg:w-9/12 lg:mx-auto xl:text-4xl xl:w-8/12 xl:mx-auto">Why use drinks dispensers?</h1>
 
         <!-- Four section -->
         <section class="space-y-20 mx-8 lg:mx-0 lg:space-y-2 xl:flex xl:flex-row">
@@ -468,7 +498,7 @@
 
 
     
-    <script src="./javascript/script.js"> </script>
+    <script src="./javascript/equipmentScript.js"> </script>
 
 </body>
 </html>
