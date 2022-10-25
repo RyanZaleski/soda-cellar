@@ -2362,16 +2362,12 @@ html {
     padding-right: 2.5rem;
   }
 
-  .xl\:pt-4 {
-    padding-top: 1rem;
+  .xl\:pt-6 {
+    padding-top: 1.5rem;
   }
 
   .xl\:pb-4 {
     padding-bottom: 1rem;
-  }
-
-  .xl\:pt-6 {
-    padding-top: 1.5rem;
   }
 
   .xl\:text-4xl {
